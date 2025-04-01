@@ -128,7 +128,33 @@
         "linkedin": "https://www.linkedin.com/in/pudv95/",
         "email": ""
       },
-    
+
+      {
+        "name": "Prachi Singh",
+        "image": "PrachiPC.png",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Competitive Programming",
+        "skills": ["c", "c++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },      
+
+      {
+        "name": "Pranjal",
+        "image": "PranjalPC.png",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Backend Development",
+        "skills": ["Node.js", "ExpressJs", "Mongodb", "MySQL"],
+        "github": "https://github.com/Pranjal190904",
+        "linkedin": "https://www.linkedin.com/in/pranjal-1a4b5a258/",
+        "email": "pranjalvyas45@gmail.com",
+        "showBanner": true,
+        "bannerText": "COORDINATOR"
+      },
+
       {
         "name": "Rachit Katiyar",
         "image": "RachitPC.jpg",
@@ -140,7 +166,100 @@
         "email": "rachitjk.chanakya1@gmail.com",
         "showBanner": true,
         "bannerText": "SIH Winner"
+      },
+
+      {
+        "name": "Rahul Yadav",
+        "image": "RahulPC.png",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Competitive Programming",
+        "skills": ["C", "C++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },      
+
+      {
+        "name": "Rohit Yadav",
+        "image": "Rohitpc.png",
+        "branch": "Computer Science and Engineering (AIML)",
+        "specialization": "Competitive Programming",
+        "skills": ["C","C++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },
+      
+      
+      {
+        "name": "Shreya Goel",
+        "image": "ShreyaPC.png",
+        "branch": "Computer Science And Information Technology ",
+        "specialization": "Competitive Programming",
+        "skills": ["C" ,"C++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },
+
+      {
+        "name": "Shreyansh Gupta",
+        "image": "ShreyanshPC.png",
+        "branch": "Computer Science and Engineering (AIML)",
+        "specialization": "Competitive Programming",
+        "skills": ["C" , "C++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },      
+
+      {
+        "name": "Siddhant Gupta",
+        "image": "SiddhantPC.png",
+        "branch": "Information Technology",
+        "specialization": "Competitive Programming",
+        "skills": ["C++", "Python"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/siddhantgupta12/",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },
+
+      {
+        "name": "Tushar",
+        "image": "TusharPC.png",
+        "branch": "",
+        "specialization": "",
+        "skills": [""],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
+      },      
+      
+      {
+        "name": "Vaibhav Singhal",
+        "image": "VaibhavPC.png",
+        "branch": "Computer Science And Information Technology ",
+        "specialization": "Competitive Programming",
+        "skills": ["C","C++"],
+        "github": "",
+        "linkedin": "",
+        "email": "",
+        "showBanner": true,
+        "bannerText": "Techie"
       }
+    
     ]
   },
   "secondYear": {
