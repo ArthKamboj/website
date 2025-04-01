@@ -14,7 +14,29 @@
         "branch": "Electronics and Communication Engineering",
         "specialization": "Spring Boot Development",
         "skills": [ "Java", "C++", "JDK"],
-        "linkedin": "https://www.linkedin.com/in/aakarsh09z/"
+        "github": "https://github.com/aakarsh09Z",
+        "linkedin": "https://www.linkedin.com/in/aakarsh09z/",
+        "email": "singhaakarsh12345@gmail.com"
+      },
+      {
+        "name": "Adarsh Sharma",
+        "image": "AdarshPC.png",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Competitive Programming",
+        "skills": ["Python", "C++","MS Excel", "JavaScript"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/adarsh-sharma-4562a91b8/",
+        "email": ""
+      },
+      {
+        "name": "Ananya Singhal",
+        "image": "AnanyaPC.jpg",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Competitive Programming",
+        "skills": ["Flutter", "Dart", "Python", "C++", "Figma", "MySQL"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/ananyasinghaldev/",
+        "email": ""
       },
       {
         "name": "Anas Khan",
@@ -22,7 +44,19 @@
         "branch": "Computer Science and Engineering",
         "specialization": "Cyber Security Expert",
         "skills": [ "Python", "C++", "Cyber Security"],
-        "linkedin": "https://www.linkedin.com/in/anas-khan-094b92290/"
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/anas-khan-094b92290/",
+        "email": ""
+      },
+      {
+        "name": "Apoorva Vaishya",
+        "image": "Apoorva.jpeg",
+        "branch": "Computer Science",
+        "specialization": "Competitive Programming",
+        "skills": ["C", "C++"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/apoorva-vaishya-5b682027b/",
+        "email": ""
       },
       {
         "name": "Ayush Agrawal",
@@ -30,7 +64,19 @@
         "branch": "Computer Science and Engineering",
         "specialization": "Competitive Programming",
         "skills": [ "Javascript", "C++", "Python"],
-        "linkedin": "https://www.linkedin.com/in/ayush-agrawal-2a3654266/"
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/ayush-agrawal-2a3654266/",
+        "email": ""
+      },
+      {
+        "name": "Kavya Mittal",
+        "image": "",
+        "branch": "Computer Science and Information Technology",
+        "specialization": "Competitive Programming",
+        "skills": ["Java", "C++", "Node.js", "Express.js", "MERN Stack", "JavaScript", "MongoDB"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/mittalkavya/",
+        "email": ""
       },
       {
         "name": "Lakshay Gupta",
@@ -38,7 +84,9 @@
         "branch": "Computer Science and Engineering",
         "specialization": "Python and IOS Development",
         "skills": [ "Javascript", "C++", "Python", "Flutter", "Dart", "Swift"],
-        "linkedin": "https://www.linkedin.com/in/ilakshaygupt/"
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/ilakshaygupt/",
+        "email": ""
       },
       {
         "name": "Lakshya Goel",
@@ -46,7 +94,29 @@
         "branch": "Computer Science and Engineering",
         "specialization": "Flutter Development",
         "skills": [ "Node.js", "C++", "Flutter", "Dart"],
-        "linkedin": "https://www.linkedin.com/in/lakshya-1-goel/"
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/lakshya-1-goel/",
+        "email": ""
+      },
+      {
+        "name": "Megha Singh",
+        "image": "Megha.jpg",
+        "branch": "Computer Science and Engineering",
+        "specialization": "Competitive Programming",
+        "skills": ["Python", "C++"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/megha-singh-01bb762b7/",
+        "email": ""
+      },
+      {
+        "name": "Mohit Bharti",
+        "image": "Mohitpc.jpg",
+        "branch": "Computer Science and Engineering",
+        "specialization": "",
+        "skills": [ "Node.js", "MongoDB", "PostgreSQL", "C++", "JavaScript"],
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/themohitbharti/",
+        "email": ""
       },
       {
         "name": "Paras Upadhyay",
@@ -54,9 +124,11 @@
         "branch": "Computer Science and Engineering",
         "specialization": "Competitive Programming and Flutter Development",
         "skills": [ "Javascript", "C++", "Python", "Flutter", "Dart"],
-        "linkedin": "https://www.linkedin.com/in/pudv95/"
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/pudv95/",
+        "email": ""
       },
-      
+    
       {
         "name": "Rachit Katiyar",
         "image": "RachitPC.jpg",
@@ -65,7 +137,9 @@
         "skills": ["Kotlin", "Java", "C++", "Android"],
         "github": "https://github.com/rockyhappy",
         "linkedin": "https://www.linkedin.com/in/rachit-katiyar-800378275/",
-        "email": "rachitjk.chanakya1@gmail.com"
+        "email": "rachitjk.chanakya1@gmail.com",
+        "showBanner": true,
+        "bannerText": "SIH Winner"
       }
     ]
   },
