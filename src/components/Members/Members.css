@@ -282,4 +282,113 @@
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Member banner styles */
+.member-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #EF334C;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 2;
+  transform: translateY(0) rotate(0);
+  transform-origin: top right;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  animation: bannerPulse 2s infinite alternate;
+}
+
+/* Banner pulse animation */
+@keyframes bannerPulse {
+  0% {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* Add a small triangle to the banner */
+.member-banner::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 5px 5px;
+  border-color: transparent transparent transparent #c42436;
+}
+
+/* Hover effect for banner */
+.team-member-card:hover .member-banner {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation-play-state: paused;
+}
+
+/* Different banner colors based on roles */
+.banner-lead {
+  background-color: #8e44ad; /* Purple for team leads */
+}
+.banner-lead::before {
+  border-color: transparent transparent transparent #6c3483;
+}
+
+.banner-android {
+  background-color: #27ae60; /* Green for Android */
+}
+.banner-android::before {
+  border-color: transparent transparent transparent #1e8449;
+}
+
+.banner-ios {
+  background-color: #3498db; /* Blue for iOS */
+}
+.banner-ios::before {
+  border-color: transparent transparent transparent #2980b9;
+}
+
+.banner-flutter {
+  background-color: #00B8D4; /* Cyan for Flutter */
+}
+.banner-flutter::before {
+  border-color: transparent transparent transparent #0097A7;
+}
+
+.banner-cyber {
+  background-color: #e74c3c; /* Red for Cyber Security */
+}
+.banner-cyber::before {
+  border-color: transparent transparent transparent #c0392b;
+}
+
+.banner-web {
+  background-color: #f39c12; /* Orange for Web Development */
+}
+.banner-web::before {
+  border-color: transparent transparent transparent #d35400;
+}
+
+.banner-ai {
+  background-color: #9b59b6; /* Purple for AI/ML */
+}
+.banner-ai::before {
+  border-color: transparent transparent transparent #8e44ad;
+}
+
+/* Responsive styles for banner */
+@media (max-width: 576px) {
+  .member-banner {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
 } 

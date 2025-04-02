@@ -151,6 +151,25 @@ const MemberCard = memo(({ member }) => {
     }
   };
 
+  // Determine banner color based on text
+  const getBannerClass = (text) => {
+    if (!text) return '';
+    
+    // Convert to lowercase for case-insensitive matching
+    const lowerText = text.toLowerCase();
+    
+    if (lowerText.includes('lead')) return 'banner-lead';
+    if (lowerText.includes('android')) return 'banner-android';
+    if (lowerText.includes('ios')) return 'banner-ios';
+    if (lowerText.includes('flutter')) return 'banner-flutter';
+    if (lowerText.includes('cyber')) return 'banner-cyber';
+    if (lowerText.includes('web')) return 'banner-web';
+    if (lowerText.includes('ml') || lowerText.includes('ai')) return 'banner-ai';
+    
+    // Default
+    return '';
+  };
+
   return (
     <div className="team-member-card">
       <div className="position-relative team-member-image-container">
@@ -166,6 +185,13 @@ const MemberCard = memo(({ member }) => {
             loading="lazy"
             onError={handleImageError}
           />
+        )}
+        
+        {/* Add banner if showBanner is true */}
+        {member.showBanner && (
+          <div className={`member-banner ${getBannerClass(member.bannerText)}`}>
+            {member.bannerText || "Featured"}
+          </div>
         )}
       </div>
       <div className="team-member-info">
